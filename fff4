@@ -1,0 +1,19 @@
+
+@Service
+public class EmpNewServiceImpl  implements EmpNewService {
+
+   @Autowired
+  private ElnfoNewMapper elnfoNewMapper;
+
+    @Override
+    public EmpMachInfo addEMI(){ return null;
+
+    };//增
+    @Override
+     public int delEMI(int EMid){  return null;
+
+    };//删
+    @Override
+    public EmpMachInfo FindEMI(){ return null;
+
+    };//查
